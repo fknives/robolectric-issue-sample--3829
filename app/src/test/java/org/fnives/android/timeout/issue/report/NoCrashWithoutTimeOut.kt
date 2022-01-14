@@ -20,7 +20,7 @@ class NoCrashWithoutTimeOut {
         Intents.release()
     }
 
-    @Test
+    @Test(timeout = 10000)
     fun example() {
 
     }
