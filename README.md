@@ -1,6 +1,6 @@
 # robolectric-issue-sample--3829
 
-Sample for issue https://github.com/robolectric/robolectric/issues/3829.
+Sample for issue https://github.com/robolectric/robolectric/issues/3829, comment: https://github.com/robolectric/robolectric/issues/3829#issuecomment-1013515751.
 
 Reference files: 
 - [CrashBecauseOfTimeOut](https://github.com/fknives/robolectric-issue-sample--3829/blob/develop/app/src/test/java/org/fnives/android/timeout/issue/report/CrashBecauseOfTimeOut.kt)
