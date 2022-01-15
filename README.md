@@ -11,3 +11,9 @@ Versions
 - Espresso version: 3.4.0
 - androidx.test.ext:junit: 1.1.3
 - junit version: 4.13.2
+
+## Workaround
+### Thanks to [hoisie](https://github.com/hoisie) in this [comment](https://github.com/robolectric/robolectric/issues/3829#issuecomment-1013549820)
+I've created a TestRule which mimicks  the TimeOut test rule and seems to be working fine for shared tests for now.
+- See the class here: [SharedTimeOut](https://github.com/fknives/robolectric-issue-sample--3829/blob/develop/app/src/sharedTest/java/org/fnives/android/timout/issue/report/fix/SharedTimeOut.kt)
+- How it was verified: [SharedTimeOutTest](https://github.com/fknives/robolectric-issue-sample--3829/blob/develop/app/src/sharedTest/java/org/fnives/android/timout/issue/report/fix/SharedTimeOutTest.kt)
